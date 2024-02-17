@@ -1,11 +1,12 @@
-import { Flex } from "@chakra-ui/react";
 import EliteForm from "./components/EliteForm";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <Flex w="full" justifyContent="center" my={32}>
+    <>
+      <Header />
       <EliteForm />
-    </Flex>
+    </>
   );
 }
 
