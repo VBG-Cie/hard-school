@@ -1,4 +1,4 @@
-import { Button, Flex, Input, Grid, Stack, VStack } from "@chakra-ui/react";
+import { Button, Flex, Input, Grid } from "@chakra-ui/react";
 import { useState } from "react";
 
 const EliteForm = () => {
